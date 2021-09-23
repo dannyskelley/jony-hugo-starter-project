@@ -7,6 +7,10 @@ The [Hugo](https://gohugo.io/) boilerplate I use for projects.
 
 **Disclaimer** - Hugo Starter Project is a boilerplate (starter kit) for bespoke Hugo projects. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
 
+<<<<<<< HEAD
+=======
+**Disclaimer** - Atlas is a starter kit designed for Hugo projects that want styling developed from the ground up.. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
+>>>>>>> e3140d96f67b0df6e5d4b6de3c8f82ef1fe84a77
 
 ## Features
 Hugo Starter Project provides the following features out of the box:
@@ -96,10 +100,14 @@ This is a Netlify feature. Learn more about [Netlify Redirects](https://www.netl
 Hugo [Aliases](https://gohugo.io/content-management/urls/#aliases) are usually handled by `<meta http-equiv="refresh" ...>` tags. These have been disabled within `config.toml` with `disableAliases = true`, and instead are handled by [Netlify Redirects](https://www.netlify.com/docs/redirects/). This is handled automatically and you should continue to add aliases as described in the Hugo documentation.
 
 
+<<<<<<< HEAD
 ## Themes
 Hugo Starter Project is a boilerplate (starter kit) designed to aid bespoke Hugo development. Using existing themes with Hugo Starter Project is possible, but unsupported.
 
 Hugo Starter Project files will take priority over your theme due to the order Hugo looks for files. For this reason, you will have to remove most of the files inside `/layouts` with the exception of `_headers`, `_redirects` and `robots.txt`.
+=======
+Atlas is a boilerplate (starter kit) designed to be used without needing to download a theme. This means that Atlas isrecommended for users looking to develop their own styling.  Using existing themes with Atlas is possible, but Atlas files will take priority over themes placed in the theme folder due to the order Hugo looks for files. For this reason, you will have to remove most of the files inside `/layouts` with the exception of `_headers`, `_redirects` and `robots.txt`.
+>>>>>>> e3140d96f67b0df6e5d4b6de3c8f82ef1fe84a77
 
 If you wish the develop your site as a theme inside Hugo Starter Project, you can copy `/layouts` into your theme and update the references within the `gulpfile.babel.js`.
 
