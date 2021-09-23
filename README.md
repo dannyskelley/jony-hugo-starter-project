@@ -7,10 +7,6 @@ The [Hugo](https://gohugo.io/) boilerplate I use for projects.
 
 **Disclaimer** - Hugo Starter Project is a boilerplate (starter kit) for bespoke Hugo projects. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
 
-<<<<<<< HEAD
-=======
-**Disclaimer** - Atlas is a starter kit designed for Hugo projects that want styling developed from the ground up.. It's not a Hugo theme and cannot be placed inside the `/themes` directory. Check the [theme](#themes) docs for more information.
->>>>>>> e3140d96f67b0df6e5d4b6de3c8f82ef1fe84a77
 
 ## Features
 Hugo Starter Project provides the following features out of the box:
