@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "prestart": "npm run build:icons",
-    "start": "hugo server",
+    "start": "hugo server --buildDrafts",
     "prebuild": "npm run build:icons",
     "build": "hugo && npm run build:functions && hugo --minify --gc",
     "build:icons": "svgstore assets/svg/**/*.svg > static/sprite.svg --inline",
